@@ -123,7 +123,7 @@ h4 {
 }
 .section2 {
   margin-top: 35px;
-  background-image: url("/N8-Homework/assets/img/Mask\ group.png");
+  background-image: url(/assets/img/Mask\ group.png);
   height: 557px;
   width: 100vw;
   display: flex;
@@ -193,7 +193,7 @@ p {
   margin-bottom: 40px;
 }
 .team-member-1 {
-  background-image: url(/N8-Homework/assets/img/Photo.png);
+  background-image: url(/assets/img/Photo.png);
   width: 386px;
   height: 531px;
   display: flex;
@@ -202,7 +202,7 @@ p {
   padding-bottom: 20px;
 }
 .team-member-2 {
-  background-image: url(/N8-Homework/assets/img/gregor.png);
+  background-image: url(/assets/img/gregor.png);
   width: 386px;
   height: 531px;
   display: flex;
@@ -211,7 +211,7 @@ p {
   padding-bottom: 20px;
 }
 .team-member-3 {
-  background-image: url(/N8-Homework/assets/img/madeline.png);
+  background-image: url(/assets/img/madeline.png);
   width: 386px;
   height: 531px;
   display: flex;
