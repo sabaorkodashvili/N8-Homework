@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 53px;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav-ul {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  color: #37393f;
+  gap: 30px;
+  width: 601px;
+  font-family: "inter";
+}
+.header-button {
+  margin-left: 50px;
+}
+.header-button {
+  width: 184px;
+  height: 65px;
+  background-color: #6b77e5;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "cabin";
+}
+.section1,
+h3,
+p,
+h4 {
+  font-family: "inter";
+}
+.section1 h1 {
+  font-family: "inter";
+}
+.section1-heading {
+  margin-top: 157px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.section1-heading h4 {
+  font-size: 18px;
+  color: #37393f;
+}
+.section1-heading h1 {
+  font-size: 40px;
+  color: #37393f;
+  font-weight: 700;
+}
+.box {
+  height: 383px;
+  width: 386px;
+  background-color: #f4f4f4;
+}
+.section-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  margin-top: 41px;
+}
+.section-box h1 {
+  font-size: 25px;
+  color: #37393f;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 58px;
+}
+
+.section-box p {
+  color: #7d7d7d;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 16px;
+  text-align: center;
+  line-height: 26.31px;
+}
+
+.section-box h3 {
+  color: #6b77e5;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 37px;
+}
+.box-img {
+  background-color: #40ddb6;
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 157px;
+  margin-top: 20px;
+}
+.box1-img-2 {
+  background-color: #6b77e5;
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 157px;
+  margin-top: 20px;
+}
+.section2 {
+  margin-top: 35px;
+  background-image: url("/N8-Homework/assets/img/Mask\ group.png");
+  height: 557px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  left: -2px;
+}
+.section2 h3,
+p {
+  font-family: "inter";
+}
+.play-button {
+  background-color: #6b77e5;
+  width: 64.5px;
+  height: 64.5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -201px;
+}
+.section2 h3 p {
+  font-size: 18px;
+  color: #37393f;
+  font-weight: 400;
+}
+.section2 h1 {
+  font-size: 40px;
+  color: #37393f;
+  font-weight: 400;
+  padding-top: 16px;
+  font-family: "inter";
+}
+.section2 p {
+  font-size: 18px;
+  color: #37393f;
+  font-weight: 400;
+  padding-top: 21px;
+}
+.footer-section h4,
+p {
+  font-family: "inter";
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 150px;
+}
+.footer-info h4 {
+  color: #37393f;
+  font-size: 18px;
+}
+.footer-info h1 {
+  color: #37393f;
+  font-size: 40px;
+}
+.footer-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.team-member-1 {
+  background-image: url(/N8-Homework/assets/img/Photo.png);
+  width: 386px;
+  height: 531px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.team-member-2 {
+  background-image: url(/N8-Homework/assets/img/gregor.png);
+  width: 386px;
+  height: 531px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.team-member-3 {
+  background-image: url(/N8-Homework/assets/img/madeline.png);
+  width: 386px;
+  height: 531px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.member-name {
+  height: 114px;
+  width: 341px;
+  background-color: white;
+  color: #37393f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.member-name h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #37393f;
+}
+.member-name p {
+  color: #7d7d7d;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.footer-section h1,
+h2 {
+  font-family: "inter";
+}
