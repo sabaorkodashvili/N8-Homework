@@ -123,7 +123,7 @@ h4 {
 }
 .section2 {
   margin-top: 35px;
-  background-image: url("/assets/img/Mask\ group.png");
+  background-image: url("../assets/img/Mask\ group.png");
   height: 557px;
   width: 100vw;
   display: flex;
